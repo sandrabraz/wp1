@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  font-family: $fontStack;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+}

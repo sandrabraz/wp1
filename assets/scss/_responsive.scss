@@ -1,0 +1,401 @@
+//  Navigation
+
+@media only screen and (max-width: 1089px) {
+  .mainnav  {
+    position: absolute;
+    padding: 40px;
+    margin-top: 50px;
+    display: block;
+   right: 0px;
+    background-color: $mainColor;
+    display: none;
+  }
+  
+.navbar nav {
+  position: relative;
+}
+  a{
+    display: block;
+  }
+
+  .active {
+    display: block;
+  } 
+
+  nav img {
+    max-width: 200px;
+  }
+
+  .toggle {
+    display: block;
+    left: 450px;
+  }
+ .container {
+   max-width: 900px;
+ }
+  
+.about-me {
+  max-width: 45%;
+}
+
+ .footer-form button {
+  margin-left: 220px;
+}
+
+.social {
+  display: flex;
+  a{
+    margin: 0 auto;
+  }
+  .fa-twitter,
+  .fa-skype {
+    border: none;
+  }
+  
+}
+
+} 
+
+@media only screen and (max-width: 870px) {
+
+.container {
+ max-width: 730px;
+
+}
+
+nav img {
+  max-width: 150px;
+}
+
+.footer-form button {
+  margin-left: 170px;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+
+  .about-me {
+    width: 100%;
+    margin: auto;
+  }
+
+  .photo-me {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+}
+
+
+@media only screen and (max-width: 725px)  {
+
+  nav ul li {
+    display: block;
+    text-align: right;
+  }
+
+  nav img {
+    max-width: 120px;
+  }
+
+  .container{
+    max-width: 670px;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+  .button-hero { 
+        padding: 15px 40px;
+    }
+
+
+  .about-me h3,
+  .work h3, 
+  .skills h3,
+  .potfolio h3, 
+  .footer-form{
+    font-size: 1rem;
+    h2 {
+      font-size: 1.8rem;
+    }
+  }
+
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+
+  .about-me {
+    width: 100%;
+    margin: auto;
+  }
+
+  .photo-me {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+  .experience {
+    max-width: 290px;
+  }
+
+  .dot-1 {
+    margin-top: 145px;
+  }
+
+  .portfolio-content {
+    padding-bottom: 14px;
+  }
+
+  .footer-form button {
+    margin-left: 105px;
+  }
+
+} 
+
+@media only screen and (max-width: 675px) {
+  .container {
+    max-width: 610px;
+  }
+
+  .nav img {
+    max-width: 100px;
+  }
+
+  .hero-content p {
+    text-align: center;
+  }
+
+  .button-hero { 
+    padding: 13px 35px;
+}
+
+.work h2,
+.skills h2,
+.about-me h2,
+.portfolio h2 {
+    margin-left: 20px;
+  }
+
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+
+  .about-me {
+    width: 100%;
+    margin: auto;
+  }
+
+  .photo-me {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .portfolio-content {
+    padding-bottom: 9px;
+  }
+
+  .dot-1 {
+    margin-top: 160px;
+  }
+
+  .block2 .experience {
+    margin-left: 45px;
+  }
+
+  .block1 .experience {
+    margin-right: 40px;
+  }
+
+  .vl {
+    background-size: 2px 90%;
+  }
+
+  .footer-form button {
+    margin-left: 120px;
+  }
+
+  .location-wrap {
+    padding-left: 20px;
+  }
+
+  .progressBar {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+  .container {
+    max-width: 540px;
+  }
+  .nav img {
+    max-width: 100px;
+  }
+
+  .hero-content p {
+    text-align: center;
+  }
+
+  .about-me h3,
+  .work h3, 
+  .skills h3,
+  .potfolio h3, 
+  .footer-form {
+    font-size: 0.8rem;
+  }
+
+  .work h2,
+.skills h2,
+.about-me h2,
+.portfolio h2 {
+    margin-left: 20px;
+    font-size: 1.5rem;
+  }
+
+
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+
+  .about-me {
+    width: 100%;
+    margin: auto;
+  }
+
+  .photo-me {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+    .block1,
+    .block2 {
+      width: 100%;
+    }
+
+    .block1 .experience {
+     margin: auto;
+    }
+
+    .block2 .experience {
+      margin: auto;
+     }
+     
+    
+    .side1,
+    .side2 {
+      margin-top: 0;
+    }
+
+  .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+  .vl {
+    background: none;
+  }
+
+  .portfolio-nav ul {
+    display: block;
+    padding-left: 0;
+    margin-bottom: 10px;
+    padding-top: 20px;
+  }
+
+  .portfolio-nav ul li {
+    text-align: center;
+
+  }
+
+  .portfolio-nav ul li a {
+    padding-right: 0;
+  }
+
+  .portfolio-nav li:nth-child(1)::after {
+    margin: auto;
+    margin-top: 0;
+
+  }
+
+  .portfolio-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+
+  .portfolio-info {
+    width: 100%;
+  }
+
+ 
+  .footer-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+
+  .footer-form {
+    width: 100%;
+    text-align: center;
+  }
+ 
+.location-wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.vl-form {
+  background: none;
+}
+
+  .footer-form button {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+
+
+  .skills-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+
+  .progressBar {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .dot-1 {
+    display: none;
+  }
+
+}
+
+

@@ -1,0 +1,32 @@
+$mainColor: #353541;
+$secondaryColor: #fb6470;
+$darkColor: #1d1d24;
+$mainTextColor: #3e3e3e;
+
+
+$fontStack: "Raleway", sans-serif;
+
+%btn-shared {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  background-color: $secondaryColor;
+}
+
+%title-shared{
+font-weight: 600;
+  font-size: 32px;
+    &::after {
+      content: " ";
+      background-color: #fb6470;
+      height: 2px;
+      width: 75px;
+      display: block;
+      margin-top: 10px;
+    }
+}
+
+%value-shared {
+  background-color: $secondaryColor;
+  height: 4px;
+}
